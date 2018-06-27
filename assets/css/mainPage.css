@@ -70,11 +70,17 @@ div.carousel > div.carousel-inner > div.carousel-item.active {
 }
 
 .artist_name{
+    /*border-bottom: 2px solid white;*/
+    /*width: 20%;*/
+    /*margin: 0 auto;*/
+    /*font-size: 47px;*/
+    /*font-family: "Palace Script MT", Tahoma, Sans-Serif ;*/
+
     border-bottom: 2px solid white;
-    width: 20%;
+    width: 25%;
     margin: 0 auto;
-    font-size: 47px;
-    font-family: "Palace Script MT", Tahoma, Sans-Serif ;
+    font-size: 60px;
+    font-family: "Palace Script MT", Tahoma, Sans-Serif;
 
 }
 
@@ -137,12 +143,15 @@ div.carousel > div.carousel-inner > div.carousel-item.active {
 @media (min-width: 1200px){
 .container {
     max-width: 1140px;
-}}
+}
+
+}
 
 @media (min-width: 992px){
 .container {
     max-width: 960px;
-}}
+}
+}
 
 
 @media (min-width: 768px){
@@ -153,26 +162,45 @@ div.carousel > div.carousel-inner > div.carousel-item.active {
 @media (min-width: 576px){
 .container {
     max-width: 540px;
-}}
+}
+
+
+}
 
 /*Media Querries voor de text*/
 @media (max-width: 992px){
     .artist_name {
         width: 32%;
-    }}
+    }
+    .fa-facebook{
+        font-size: 1.9em;    }
+    .fa-youtube{
+        font-size: 1.9em;
+    }
+    .fa-instagram{
+        font-size: 1.9em;    }
+
+    .header_btn a{
+        font-size: 1.3em !important;
+    }
+}
 
 
 @media (max-width: 368px){
     .artist_name {
         width: 55%;
-    }}
+    }
+
+
+
+}
 
 
 
 
 /*Media querry for mainBackgroundImage*/
 
-@media (max-width: 585px){
+@media (max-width: 837px){
     div.carousel > div.carousel-inner > div.carousel-item.active {
 
         background-image:url('../images/largerBg1.jpg');
@@ -242,4 +270,30 @@ div.carousel > div.carousel-inner > div.carousel-item.active {
 /*todo checkup ↓*/
 #bgg {
     background-color: black;
+}
+
+
+/*Animations*/
+
+
+.header_btn, #welcome{
+-webkit-animation: bummer 2s;
+animation: bummer 2s;
+-webkit-transform: scale(0,1);
+transform: scale(0,0);
+-webkit-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes bummer {
+    100% {
+        -webkit-transform: scale(1,1);
+    }
+}
+
+@keyframes bummer {
+    100% {
+        transform: scale(1,1);
+    }
 }
