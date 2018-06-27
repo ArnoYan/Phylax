@@ -92,12 +92,35 @@ div.carousel > div.carousel-inner > div.carousel-item.active {
 }
 .fa-instagram{
     color: #d7ff69ab;
-
 }
+
+
 .social_home i:hover {
     font-size: 160%;
 }
 
+
+
+
+#footer .fa-instagram{
+    color: #e32d8eab;
+}
+
+#footer .fa-facebook{
+    color: #3f3f8a;
+}
+
+#footer i {
+
+    font-size: 1.5em;
+
+}
+
+#footer i:hover {
+
+    font-size: 2em;
+
+}
 /*#instagram:hover{*/
     /*color: #d7ff69ab;*/
 /*}*/
@@ -183,10 +206,32 @@ div.carousel > div.carousel-inner > div.carousel-item.active {
 
 
 
+#about{
+    background-image: url("../images/mainBg.jpg");
+    background-size: cover;
+    padding-bottom: 2%;
+}
+
+#about .text-muted {
+    color: #a0abb5!important;
+    font-size: 1.2em;
+}
+
+
+#about h2, #about h3, #songs h3 {
+    font-family: 'Bevan', cursive;
+}
+
+
+
+
 /*Collage*/
 
 #songs{
-    background-color: black;
+    padding-top: 1%;
+    background-image: url(../images/mainBg.jpg);
+    background-size: cover;
+    padding-bottom: 5%;
 }
 
 #songs iframe{
@@ -194,6 +239,7 @@ div.carousel > div.carousel-inner > div.carousel-item.active {
     margin: 2%;
 }
 
-#bgg { //todo
+/*todo checkup ↓*/
+#bgg {
     background-color: black;
 }
