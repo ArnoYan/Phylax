@@ -14,7 +14,7 @@ function init() {
 
 function relocateAfterEndVideo() {
 
-    window.location = "http://localhost:63342/Pieterfl/mainPage.html";
+    window.location = "https://arnoyan.github.io/Phylax/mainPage.html";
 
 }
 
