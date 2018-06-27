@@ -1,0 +1,199 @@
+
+.home-bg-slider{
+    position: relative;
+}
+
+.firstSection-clip{
+    clip-path: polygon(0 0,100% 0, 100% 83%, 50% 100%, 0 83%);
+}
+
+.hgt-100vh{
+    height: 100vh;
+}
+
+.carousel, .carousel-item {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.home-bg-slider .carousel-item {
+    background-position: center center;
+    background-size: cover;
+}
+
+.firstSectionClipBG-Overlay {
+
+    /*deze kleur past de overlay bovenop de echte pic aan*/
+    /*Zou heel mooi zijn met animatie bij het laden van licht naar donker!! met opkomend tekst indien mogelijk*/
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.firstSection-table{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.firstSection-table-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+div.carousel > div.carousel-inner > div.carousel-item.active {
+
+    background-image:url('../images/fullScreenBg1.jpg');
+
+
+}
+
+.header_nickname_title {
+
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: capitalize; /*To be sure if mistyped in html with small letters*/
+}
+
+.artist_name{
+    border-bottom: 2px solid white;
+    width: 20%;
+    margin: 0 auto;
+    font-size: 47px;
+    font-family: "Palace Script MT", Tahoma, Sans-Serif ;
+
+}
+
+
+/*Social link hovers, not on a fa tag because there is no correct hover effect!*/
+
+
+.fa-facebook{
+    color: #97d4f4;
+
+}
+.fa-youtube{
+    color: red;
+
+}
+.fa-instagram{
+    color: #d7ff69ab;
+
+}
+.social_home i:hover {
+    font-size: 160%;
+}
+
+/*#instagram:hover{*/
+    /*color: #d7ff69ab;*/
+/*}*/
+
+/*#youtube:hover{*/
+    /*color: red;*/
+/*}*/
+
+/*#facebook:hover{*/
+    /*color: #97d4f4;*/
+
+
+/*Media Querries voor de container*/
+@media (min-width: 1200px){
+.container {
+    max-width: 1140px;
+}}
+
+@media (min-width: 992px){
+.container {
+    max-width: 960px;
+}}
+
+
+@media (min-width: 768px){
+.container {
+    max-width: 720px;
+}}
+
+@media (min-width: 576px){
+.container {
+    max-width: 540px;
+}}
+
+/*Media Querries voor de text*/
+@media (max-width: 992px){
+    .artist_name {
+        width: 32%;
+    }}
+
+
+@media (max-width: 368px){
+    .artist_name {
+        width: 55%;
+    }}
+
+
+
+
+/*Media querry for mainBackgroundImage*/
+
+@media (max-width: 585px){
+    div.carousel > div.carousel-inner > div.carousel-item.active {
+
+        background-image:url('../images/largerBg1.jpg');
+
+
+    }}
+
+
+
+/*About me section*/
+
+
+#about {
+    background-color: black;
+}
+
+#aboutMePic{
+
+    border-radius: 50%;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 26%;
+
+}
+
+@media (max-width: 1000px){
+    #aboutMePic {
+
+        width: 40%;
+
+    }}
+
+
+
+/*Collage*/
+
+#songs{
+    background-color: black;
+}
+
+#songs iframe{
+    border: 2px solid white;
+    margin: 2%;
+}
+
+#bgg { //todo
+    background-color: black;
+}
