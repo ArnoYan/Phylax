@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', init);
 
 function init() {
 
-    document.getElementById('video').addEventListener('ended',relocateAfterEndVideo);
+    // document.getElementById('video').addEventListener('ended',relocateAfterEndVideo);
 
 
 }
