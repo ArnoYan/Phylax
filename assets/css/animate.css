@@ -3492,3 +3492,17 @@
     -webkit-animation-name: slideOutUp;
     animation-name: slideOutUp;
 }
+
+
+.delay-1 {
+    animation-delay: .25s;
+}
+.delay-2 {
+    animation-delay: .5s;
+}
+.delay-3 {
+    animation-delay: .75s;
+}
+.delay-4 {
+    animation-delay: 1s;
+}
