@@ -170,7 +170,7 @@ div.carousel > div.carousel-inner > div.carousel-item.active {
 /*Media Querries voor de text*/
 @media (max-width: 992px){
     .artist_name {
-        width: 32%;
+        width: 50%;
     }
     .fa-facebook{
         font-size: 1.9em;    }
