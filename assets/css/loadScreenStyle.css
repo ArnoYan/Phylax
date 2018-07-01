@@ -34,7 +34,7 @@ h1 + p { font-family: "Shadows Into Light Two", cursive; font-size: 1.5em;  }
         /* left: 0; */
         position: fixed;
         bottom: 0px;
-        right: 0px;
+       /* right: 0px; */
         font-size: 0.8em;    }
 }
 
