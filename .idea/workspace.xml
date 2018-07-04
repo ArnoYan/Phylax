@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad76b0f0-bde9-4a0c-a810-fb41405c0852" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/js/effects.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/effects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/mainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/mainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mainPage.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainPage.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/mainPage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+            <state relative-caret-position="680">
+              <caret line="85" column="47" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -25,13 +26,13 @@
       <file leaf-file-name="mainPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+            <state relative-caret-position="620">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="effects.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="effects.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/effects.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="616">
@@ -109,9 +110,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/loadScreenStyle.css" />
         <option value="$PROJECT_DIR$/assets/css/animate.css" />
-        <option value="$PROJECT_DIR$/assets/css/mainPage.css" />
-        <option value="$PROJECT_DIR$/mainPage.html" />
         <option value="$PROJECT_DIR$/assets/js/effects.js" />
+        <option value="$PROJECT_DIR$/mainPage.html" />
+        <option value="$PROJECT_DIR$/assets/css/mainPage.css" />
       </list>
     </option>
   </component>
@@ -282,12 +283,12 @@
       <workItem from="1530221137913" duration="1903000" />
       <workItem from="1530266209566" duration="337000" />
       <workItem from="1530440281791" duration="116000" />
-      <workItem from="1530734546038" duration="1506000" />
+      <workItem from="1530734546038" duration="1865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38446000" />
+    <option name="totallyTimeSpent" value="38805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -614,17 +615,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/mainPage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        <state relative-caret-position="620">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -632,6 +626,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/mainPage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="85" column="47" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
         </state>
       </provider>
     </entry>

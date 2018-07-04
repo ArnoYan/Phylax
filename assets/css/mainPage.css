@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
 
 .home-bg-slider{
     position: relative;
@@ -80,7 +83,7 @@ div.carousel > div.carousel-inner > div.carousel-item.active {
     width: 25%;
     margin: 0 auto;
     font-size: 60px;
-    font-family: "Palace Script MT", 'Dancing Script', Tahoma, Sans-Serif;
+    font-family: 'Dancing Script', 'Script MT', Tahoma, Sans-Serif, cursive;
 
 }
 
