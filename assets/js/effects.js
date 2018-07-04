@@ -27,6 +27,10 @@ function fadeIn(e){
     document.getElementById("about").classList.add("fadeInLeft");
     document.getElementById("about").classList.add("animated");
 
+    document.getElementById("aboutMePic").classList.add("flipInX");
+    document.getElementById("aboutMePic").classList.add("delay-2");
+    document.getElementById("aboutMePic").classList.add("animated");
+
 
 }
 
